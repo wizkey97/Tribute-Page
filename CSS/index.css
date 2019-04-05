@@ -1,0 +1,70 @@
+body {
+  background-image: url(../ASSETS/images/62273_anonymous-wallpaper-1920x1080.jpg);
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*circle content*/
+#content {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: black;
+  border-radius: 50%;
+  border-width: 5px;
+  width: 900px;
+  height: 900px;
+  background-color: white;
+  background-image: url(../ASSETS/images/62273_anonymous-wallpaper-1920x1080.jpg);
+  background-size: cover;
+}
+
+/*header */
+#title {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 100px;
+}
+
+#img-caption {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  margin: -40px;
+  font-size: 18px;
+}
+
+/*text*/
+#tribute-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  line-height: 18px;
+}
+
+.tribute-info {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  width: 35%;
+  padding: 20px;
+}
+
+#tribute-link {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
